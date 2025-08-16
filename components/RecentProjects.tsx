@@ -2,15 +2,16 @@ import React from "react";
 import { PinContainer } from "./ui/Pin";
 import { projects } from "@/data";
 import { FaLocationArrow } from "react-icons/fa6";
+import { MacbookScroll } from "./ui/macbook-scroll";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20" id="projects">
+    <div className="py-20 w-full overflow-hidden" id="projects">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        Explore My Projects on{" "}
+        <span className="text-purple">GitHub</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
+      {/* <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map((item) => (
           <div
             className="sm:h-[41rem] h-[27rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
@@ -75,7 +76,16 @@ const RecentProjects = () => {
             </PinContainer>
           </div>
         ))}
-      </div>
+      </div> */}
+      <MacbookScroll
+        title={
+          <span>
+            To see all my latest work, code samples, and contributions <br /> <a className="text-purple underline" target="_blank" href="https://github.com/adarsh-5ingh">Visit my GitHub profile</a>,
+          </span>
+        }
+        src={`/github.png`}
+        showGradient={false}
+      />
     </div>
   );
 };

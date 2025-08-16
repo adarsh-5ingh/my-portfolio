@@ -116,7 +116,13 @@ export const navItems = [
         "Adarsh is a hardworking and talented web designer. Their dedication and creativity consistently deliver high-quality results. A true asset to any team.",
       name: "Sunil Garad",
       title: "Senior Project Head",
-    }
+    },
+    {
+      quote:
+        "I highly recommend Adarsh! I've had the pleasure of seeing his growth firsthand over the past few years, particularly in JavaScript and React. Adarsh possesses a remarkable dedication to learning and consistently applies new knowledge to solve complex problems. His persistence in tackling challenges, even when faced with roadblocks, is truly admirable. He doesn't just learn new skills, he masters them and demonstrates an authentic passion for development. Any team would be lucky to have his expertise and unwavering commitment.",
+      name: "Tanay Patel",
+      title: "Software Engineer",
+    },
   ];
   
   export const companies = [
@@ -160,7 +166,7 @@ export const navItems = [
       time: "Dec 2024 - Present",
       desc: "Next JS, TypeScript, Rect JS, GraphQL, Redux, AWS",
       className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: "https://media.licdn.com/dms/image/v2/D560BAQFKbsUE7w8V3g/company-logo_200_200/company-logo_200_200/0/1737826806711/glashomes_logo?e=1758153600&v=beta&t=uPS1VOl3b0qTCSd-48BRkeOKT85mMu_jzAnFhYiCJHM",
     },
 
     {
@@ -170,7 +176,7 @@ export const navItems = [
       time: "Oct 2023 - Sep 2024",
       desc: "React JS, Redux, React Query, Jira, Zoho Sprint, Figma, Node JS, Express JS, Tailwind, Bootstrap, MUI, Reactstrap, HTML, CSS, Javascript",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "https://5.imimg.com/data5/SELLER/Default/2023/8/337857357/RZ/BM/IU/195867510/matriye-college-lms-software.jpg",
     },
     {
       id: 3,
@@ -179,17 +185,17 @@ export const navItems = [
       time: "Jan 2023 - Jun 2023",
       desc: "React JS, Next JS, Jira, Figma, Tailwind, Bootstrap, MUI, HTML, CSS, Javascript",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      thumbnail: "https://media.licdn.com/dms/image/v2/C4D0BAQHIUtedkOSezQ/company-logo_200_200/company-logo_200_200/0/1672721826001/thedevstudio_logo?e=1758153600&v=beta&t=z_14glu_aPC4CIygsOGSfbZvUPv3NvXyUbEzjLfx-No",
     },
-    {
-      id: 4,
-      title: "UI UX Designer",
-      company: "GenioBITS Technologies",
-      time: "Feb 2022 - Apr 2022",
-      desc: "User Interface, User Experience, WireFrame, figma, Adobe XD",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
+    // {
+    //   id: 4,
+    //   title: "UI UX Designer",
+    //   company: "GenioBITS Technologies",
+    //   time: "Feb 2022 - Apr 2022",
+    //   desc: "User Interface, User Experience, WireFrame, figma, Adobe XD",
+    //   className: "md:col-span-2", // change to md:col-span-2
+    //   thumbnail: "/exp3.svg",
+    // },  
     //   id: 4,
     //   title: "Lead Frontend Developer",
     //   company: "Matriye Software",

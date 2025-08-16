@@ -2,12 +2,19 @@ import React from "react";
 
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
+import { PointerHighlight } from "./ui/pointer-highlight";
 
 const Experience = () => {
   return (
     <div className="py-20 w-full">
       <h1 className="heading">
-        My <span className="text-purple">work experience</span>
+        My
+        <PointerHighlight 
+            rectangleClassName="bg-neutral-200 dark:bg-neutral-700 border-neutral-300 dark:border-neutral-600 leading-loose"
+            pointerClassName="text-yellow-500 h-3 w-3"
+            containerClassName="ml-3 inline-block mr-1">
+          <span className="text-purple p-2 relative z-10">work experience</span>
+        </PointerHighlight>
       </h1>
 
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">

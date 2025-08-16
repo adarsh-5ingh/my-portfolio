@@ -3,10 +3,12 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
+import { Cover } from "./ui/cover";
+import { HeroHighlight } from "./ui/hero-highlight";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-24">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -19,7 +21,7 @@ const Hero = () => {
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
 
-      <div
+      <HeroHighlight
         className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
        absolute top-0 left-0 flex items-center justify-center"
       >
@@ -27,21 +29,25 @@ const Hero = () => {
           className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
-      </div>
+      </HeroHighlight>
 
-      <div className="flex justify-center relative my-20 z-10">
+      {/* <HeroHighlight> */}
+        <div className="flex justify-center relative my-20 z-30">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="capitalize tracking-widest text-xs text-center text-blue-100 max-w-90">
           Transforming Concepts into Seamless User Experiences
           </p>
 
-          <TextGenerateEffect
+          {/* <TextGenerateEffect
             words="👋 Hello! I&apos;m Adarsh, a Web Developer."
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-          />
+          /> */}
+          <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center relative z-20 py-4 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white md:leading-[1.2] lg:leading-[1.45]">
+            Hello! I&apos;m Adarsh, a Web<br /> <Cover>Developer.</Cover>
+          </h1>
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-          I&apos;m very passionate about the work that I do.
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl mt-2 md:mt-4 lg:mt-6">
+            I&apos;m very passionate about the work that I do.
           </p>
 
           <a href="#projects">
@@ -52,7 +58,8 @@ const Hero = () => {
             />
           </a>
         </div>
-      </div>
+        </div>
+      {/* </HeroHighlight> */}
     </div>
   );
 };
