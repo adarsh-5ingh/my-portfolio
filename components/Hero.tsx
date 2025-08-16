@@ -32,7 +32,7 @@ const Hero = () => {
       </HeroHighlight>
 
       {/* <HeroHighlight> */}
-        <div className="flex justify-center relative my-20 z-30">
+        <div className="flex justify-center relative my-20">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="capitalize tracking-widest text-xs text-center text-blue-100 max-w-90">
           Transforming Concepts into Seamless User Experiences
@@ -42,8 +42,8 @@ const Hero = () => {
             words="👋 Hello! I&apos;m Adarsh, a Web Developer."
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           /> */}
-          <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center relative z-20 py-4 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white md:leading-[1.2] lg:leading-[1.45]">
-            Hello! I&apos;m Adarsh, a Web<br /> <Cover>Developer.</Cover>
+          <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center relative py-4 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white md:leading-[1.2] lg:leading-[1.45]">
+            Hello! I&apos;m Adarsh, a Web<br /> <Cover className="z-20">Developer.</Cover>
           </h1>
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl mt-2 md:mt-4 lg:mt-6">
