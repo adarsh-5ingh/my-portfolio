@@ -69,7 +69,7 @@ export const MacbookScroll = ({
   return (
     <div
       ref={ref}
-      className="flex min-h-[200vh] shrink-0 scale-[0.35] transform flex-col items-center justify-start py-0 [perspective:800px] sm:scale-50 md:scale-100 md:py-40"
+      className="flex min-h-[50vh] shrink-0 scale-[0.60] transform flex-col items-center justify-start py-0 [perspective:800px] sm:min-h-[150vh] sm:scale-[0.35] md:min-h-[200vh] md:scale-100 md:py-20"
     >
       <motion.h2
         style={{
@@ -162,11 +162,13 @@ export const Lid = ({
         className="absolute inset-0 h-96 w-[32rem] rounded-2xl bg-[#010101] p-2"
       >
         <div className="absolute inset-0 rounded-lg bg-[#272729]" />
+        <div className="absolute inset-0 h-full w-full rounded-lg object-cover object-left-top">
         <img
           src={src as string}
-          alt="aceternity logo"
-          className="absolute inset-0 h-full w-full rounded-lg object-cover object-left-top"
+          alt="adarsh-singh"
+          style={{width: "100%", height: "100%", objectFit: "cover"}}
         />
+        </div>
       </motion.div>
     </div>
   );

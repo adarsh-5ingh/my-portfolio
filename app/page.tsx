@@ -1,9 +1,12 @@
+import About from "@/components/About";
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
+import Quote from "@/components/Quote";
 import RecentProjects from "@/components/RecentProjects";
+import Skills from "@/components/Skills";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 
@@ -15,6 +18,9 @@ export default function Home() {
           <FloatingNav navItems={navItems}/>
           <Hero/>
           <Grid/>
+          <About/>
+          <Skills/>
+          <Quote/>
           <RecentProjects/>
           <Clients/>
           <Experience/>
