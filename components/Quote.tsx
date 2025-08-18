@@ -1,4 +1,3 @@
-import { LinkPreview } from "./ui/link-preview";
 import { PiQuotesFill } from "react-icons/pi";
 
 const Quote = () => {
