@@ -8,7 +8,7 @@ const BackgroundGradientAnimation = dynamic(
   { ssr: false }
 );
 
-const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 import { GlobeDemo } from "./GridGlobe";
 import { useState } from "react";
@@ -150,14 +150,9 @@ export const BentoGridItem = ({
             <div className="mt-5 relative">
               <div className={`absolute -bottom-5 right-0`}>
                 <Lottie
-                  options={{
-                    loop: copied,
-                    autoplay: copied,
-                    animationData,
-                    rendererSettings: {
-                      preserveAspectRatio: "xMidYMid slice",
-                    },
-                  }}
+                  animationData={animationData}
+                  loop={copied}
+                  autoplay={copied}
                 />
               </div>
 

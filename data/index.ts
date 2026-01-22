@@ -165,9 +165,9 @@ export const navItems = [
       title: "Software Engineer",
       company: "Glas",
       time: "Dec 2024 - Present",
-      desc: "Next JS, TypeScript, Rect JS, GraphQL, Redux, AWS",
+      desc: "Next JS, TypeScript, Rect JS, Node JS, Express JS, Go, GraphQL, Redux, AWS",
       className: "md:col-span-2",
-      thumbnail: "https://media.licdn.com/dms/image/v2/D560BAQFKbsUE7w8V3g/company-logo_200_200/company-logo_200_200/0/1737826806711/glashomes_logo?e=1758153600&v=beta&t=uPS1VOl3b0qTCSd-48BRkeOKT85mMu_jzAnFhYiCJHM",
+      thumbnail: "/glashomes_logo.jpeg",
     },
 
     {
@@ -186,7 +186,7 @@ export const navItems = [
       time: "Jan 2023 - Jun 2023",
       desc: "React JS, Next JS, Jira, Figma, Tailwind, Bootstrap, MUI, HTML, CSS, Javascript",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "https://media.licdn.com/dms/image/v2/C4D0BAQHIUtedkOSezQ/company-logo_200_200/company-logo_200_200/0/1672721826001/thedevstudio_logo?e=1758153600&v=beta&t=z_14glu_aPC4CIygsOGSfbZvUPv3NvXyUbEzjLfx-No",
+      thumbnail: "/thedevstudio_logo.jpeg",
     },
     // {
     //   id: 4,

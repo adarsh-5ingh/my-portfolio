@@ -83,7 +83,7 @@ const RecentProjects = () => {
         //     To see all my latest work, code samples, and contributions <br /> <a className="text-purple underline" target="_blank" href="https://github.com/adarsh-5ingh">Visit my GitHub profile</a>,
         //   </span>
         // }
-        src={`/github1.png`}
+        src={`/github.png`}
         showGradient={false}
       />
     </div>
